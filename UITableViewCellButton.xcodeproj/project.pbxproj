@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2267B43F1999E92F00FA9FED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B43E1999E92F00FA9FED /* Foundation.framework */; };
+		2267B4411999E92F00FA9FED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B4401999E92F00FA9FED /* CoreGraphics.framework */; };
+		2267B4431999E92F00FA9FED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B4421999E92F00FA9FED /* UIKit.framework */; };
+		2267B4491999E92F00FA9FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2267B4471999E92F00FA9FED /* InfoPlist.strings */; };
+		2267B44B1999E92F00FA9FED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B44A1999E92F00FA9FED /* main.m */; };
+		2267B44F1999E92F00FA9FED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B44E1999E92F00FA9FED /* AppDelegate.m */; };
+		2267B4521999E92F00FA9FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2267B4501999E92F00FA9FED /* Main.storyboard */; };
+		2267B4551999E92F00FA9FED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B4541999E92F00FA9FED /* ViewController.m */; };
+		2267B4571999E92F00FA9FED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2267B4561999E92F00FA9FED /* Images.xcassets */; };
+		2267B45E1999E92F00FA9FED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B45D1999E92F00FA9FED /* XCTest.framework */; };
+		2267B45F1999E92F00FA9FED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B43E1999E92F00FA9FED /* Foundation.framework */; };
+		2267B4601999E92F00FA9FED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B4421999E92F00FA9FED /* UIKit.framework */; };
+		2267B4681999E92F00FA9FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2267B4661999E92F00FA9FED /* InfoPlist.strings */; };
+		2267B46A1999E92F00FA9FED /* UITableViewCellButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B4691999E92F00FA9FED /* UITableViewCellButtonTests.m */; };
+		2267B4761999E9D400FA9FED /* WithButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B4741999E9D400FA9FED /* WithButtonTableViewCell.m */; };
+		2267B4771999E9D400FA9FED /* WithButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2267B4751999E9D400FA9FED /* WithButtonTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2267B4611999E92F00FA9FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2267B4331999E92F00FA9FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2267B43A1999E92F00FA9FED;
+			remoteInfo = UITableViewCellButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2267B43B1999E92F00FA9FED /* UITableViewCellButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCellButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2267B43E1999E92F00FA9FED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2267B4401999E92F00FA9FED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2267B4421999E92F00FA9FED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2267B4461999E92F00FA9FED /* UITableViewCellButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewCellButton-Info.plist"; sourceTree = "<group>"; };
+		2267B4481999E92F00FA9FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2267B44A1999E92F00FA9FED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2267B44C1999E92F00FA9FED /* UITableViewCellButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCellButton-Prefix.pch"; sourceTree = "<group>"; };
+		2267B44D1999E92F00FA9FED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2267B44E1999E92F00FA9FED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2267B4511999E92F00FA9FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2267B4531999E92F00FA9FED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2267B4541999E92F00FA9FED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2267B4561999E92F00FA9FED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2267B45C1999E92F00FA9FED /* UITableViewCellButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewCellButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2267B45D1999E92F00FA9FED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2267B4651999E92F00FA9FED /* UITableViewCellButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewCellButtonTests-Info.plist"; sourceTree = "<group>"; };
+		2267B4671999E92F00FA9FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2267B4691999E92F00FA9FED /* UITableViewCellButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCellButtonTests.m; sourceTree = "<group>"; };
+		2267B4731999E9D400FA9FED /* WithButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithButtonTableViewCell.h; sourceTree = "<group>"; };
+		2267B4741999E9D400FA9FED /* WithButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithButtonTableViewCell.m; sourceTree = "<group>"; };
+		2267B4751999E9D400FA9FED /* WithButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithButtonTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2267B4381999E92F00FA9FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2267B4411999E92F00FA9FED /* CoreGraphics.framework in Frameworks */,
+				2267B4431999E92F00FA9FED /* UIKit.framework in Frameworks */,
+				2267B43F1999E92F00FA9FED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2267B4591999E92F00FA9FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2267B45E1999E92F00FA9FED /* XCTest.framework in Frameworks */,
+				2267B4601999E92F00FA9FED /* UIKit.framework in Frameworks */,
+				2267B45F1999E92F00FA9FED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2267B4321999E92F00FA9FED = {
+			isa = PBXGroup;
+			children = (
+				2267B4441999E92F00FA9FED /* UITableViewCellButton */,
+				2267B4631999E92F00FA9FED /* UITableViewCellButtonTests */,
+				2267B43D1999E92F00FA9FED /* Frameworks */,
+				2267B43C1999E92F00FA9FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2267B43C1999E92F00FA9FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2267B43B1999E92F00FA9FED /* UITableViewCellButton.app */,
+				2267B45C1999E92F00FA9FED /* UITableViewCellButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2267B43D1999E92F00FA9FED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2267B43E1999E92F00FA9FED /* Foundation.framework */,
+				2267B4401999E92F00FA9FED /* CoreGraphics.framework */,
+				2267B4421999E92F00FA9FED /* UIKit.framework */,
+				2267B45D1999E92F00FA9FED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2267B4441999E92F00FA9FED /* UITableViewCellButton */ = {
+			isa = PBXGroup;
+			children = (
+				2267B44D1999E92F00FA9FED /* AppDelegate.h */,
+				2267B44E1999E92F00FA9FED /* AppDelegate.m */,
+				2267B4501999E92F00FA9FED /* Main.storyboard */,
+				2267B4531999E92F00FA9FED /* ViewController.h */,
+				2267B4541999E92F00FA9FED /* ViewController.m */,
+				2267B4561999E92F00FA9FED /* Images.xcassets */,
+				2267B4451999E92F00FA9FED /* Supporting Files */,
+				2267B4731999E9D400FA9FED /* WithButtonTableViewCell.h */,
+				2267B4741999E9D400FA9FED /* WithButtonTableViewCell.m */,
+				2267B4751999E9D400FA9FED /* WithButtonTableViewCell.xib */,
+			);
+			path = UITableViewCellButton;
+			sourceTree = "<group>";
+		};
+		2267B4451999E92F00FA9FED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2267B4461999E92F00FA9FED /* UITableViewCellButton-Info.plist */,
+				2267B4471999E92F00FA9FED /* InfoPlist.strings */,
+				2267B44A1999E92F00FA9FED /* main.m */,
+				2267B44C1999E92F00FA9FED /* UITableViewCellButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2267B4631999E92F00FA9FED /* UITableViewCellButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2267B4691999E92F00FA9FED /* UITableViewCellButtonTests.m */,
+				2267B4641999E92F00FA9FED /* Supporting Files */,
+			);
+			path = UITableViewCellButtonTests;
+			sourceTree = "<group>";
+		};
+		2267B4641999E92F00FA9FED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2267B4651999E92F00FA9FED /* UITableViewCellButtonTests-Info.plist */,
+				2267B4661999E92F00FA9FED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2267B43A1999E92F00FA9FED /* UITableViewCellButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2267B46D1999E92F00FA9FED /* Build configuration list for PBXNativeTarget "UITableViewCellButton" */;
+			buildPhases = (
+				2267B4371999E92F00FA9FED /* Sources */,
+				2267B4381999E92F00FA9FED /* Frameworks */,
+				2267B4391999E92F00FA9FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableViewCellButton;
+			productName = UITableViewCellButton;
+			productReference = 2267B43B1999E92F00FA9FED /* UITableViewCellButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2267B45B1999E92F00FA9FED /* UITableViewCellButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2267B4701999E92F00FA9FED /* Build configuration list for PBXNativeTarget "UITableViewCellButtonTests" */;
+			buildPhases = (
+				2267B4581999E92F00FA9FED /* Sources */,
+				2267B4591999E92F00FA9FED /* Frameworks */,
+				2267B45A1999E92F00FA9FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2267B4621999E92F00FA9FED /* PBXTargetDependency */,
+			);
+			name = UITableViewCellButtonTests;
+			productName = UITableViewCellButtonTests;
+			productReference = 2267B45C1999E92F00FA9FED /* UITableViewCellButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2267B4331999E92F00FA9FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = martin;
+				TargetAttributes = {
+					2267B45B1999E92F00FA9FED = {
+						TestTargetID = 2267B43A1999E92F00FA9FED;
+					};
+				};
+			};
+			buildConfigurationList = 2267B4361999E92F00FA9FED /* Build configuration list for PBXProject "UITableViewCellButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2267B4321999E92F00FA9FED;
+			productRefGroup = 2267B43C1999E92F00FA9FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2267B43A1999E92F00FA9FED /* UITableViewCellButton */,
+				2267B45B1999E92F00FA9FED /* UITableViewCellButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2267B4391999E92F00FA9FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2267B4571999E92F00FA9FED /* Images.xcassets in Resources */,
+				2267B4491999E92F00FA9FED /* InfoPlist.strings in Resources */,
+				2267B4521999E92F00FA9FED /* Main.storyboard in Resources */,
+				2267B4771999E9D400FA9FED /* WithButtonTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2267B45A1999E92F00FA9FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2267B4681999E92F00FA9FED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2267B4371999E92F00FA9FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2267B4551999E92F00FA9FED /* ViewController.m in Sources */,
+				2267B44F1999E92F00FA9FED /* AppDelegate.m in Sources */,
+				2267B44B1999E92F00FA9FED /* main.m in Sources */,
+				2267B4761999E9D400FA9FED /* WithButtonTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2267B4581999E92F00FA9FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2267B46A1999E92F00FA9FED /* UITableViewCellButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2267B4621999E92F00FA9FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2267B43A1999E92F00FA9FED /* UITableViewCellButton */;
+			targetProxy = 2267B4611999E92F00FA9FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2267B4471999E92F00FA9FED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2267B4481999E92F00FA9FED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2267B4501999E92F00FA9FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2267B4511999E92F00FA9FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2267B4661999E92F00FA9FED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2267B4671999E92F00FA9FED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2267B46B1999E92F00FA9FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2267B46C1999E92F00FA9FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2267B46E1999E92F00FA9FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewCellButton/UITableViewCellButton-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewCellButton/UITableViewCellButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2267B46F1999E92F00FA9FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewCellButton/UITableViewCellButton-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewCellButton/UITableViewCellButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2267B4711999E92F00FA9FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITableViewCellButton.app/UITableViewCellButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewCellButton/UITableViewCellButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITableViewCellButtonTests/UITableViewCellButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2267B4721999E92F00FA9FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITableViewCellButton.app/UITableViewCellButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableViewCellButton/UITableViewCellButton-Prefix.pch";
+				INFOPLIST_FILE = "UITableViewCellButtonTests/UITableViewCellButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2267B4361999E92F00FA9FED /* Build configuration list for PBXProject "UITableViewCellButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2267B46B1999E92F00FA9FED /* Debug */,
+				2267B46C1999E92F00FA9FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2267B46D1999E92F00FA9FED /* Build configuration list for PBXNativeTarget "UITableViewCellButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2267B46E1999E92F00FA9FED /* Debug */,
+				2267B46F1999E92F00FA9FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2267B4701999E92F00FA9FED /* Build configuration list for PBXNativeTarget "UITableViewCellButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2267B4711999E92F00FA9FED /* Debug */,
+				2267B4721999E92F00FA9FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2267B4331999E92F00FA9FED /* Project object */;
+}
